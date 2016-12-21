@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D52222</color>
+    <color name="colorPrimaryDark">#8A0C0C</color>
+    <color name="colorAccent">#FA5858</color>
+
+    <color name="colorLink">#B40404</color>
+    <color name="pureBlack">#000</color>
+
+    <color name="colorOneFunc">#F7E676</color>
+    <color name="colorTwoFunc">#F0DA46</color>
+    <color name="colorThreeFunc">#ECD018</color>
+
+    <color name="colorOneReq">#BAE069</color>
+    <color name="colorTwoReq">#A6D537</color>
+    <color name="colorThreeReq">#8ECB04</color>
+
+
+
+
+</resources>

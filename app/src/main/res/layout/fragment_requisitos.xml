@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/titulo_req"
+        android:textSize="30dp"
+        android:text="Para que te podamos ayudarte necesitas:"
+        android:textStyle="bold"
+        android:textColor="@color/pureBlack"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorOneReq"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:layout_weight="1"
+            android:src="@drawable/icono23px"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:id="@+id/requisito_1"
+            android:textColor="@color/pureBlack"
+            android:text="Solicitad ayuda desde la app de Torito rescue"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@color/colorTwoReq"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:layout_weight="1"
+            android:src="@drawable/icono23px"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:id="@+id/requisito2"
+            android:textColor="@color/pureBlack"
+            android:text="Llenar la solicitud con los datos verdaderos y precisos"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@color/colorThreeReq"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView3"
+            android:layout_weight="1"
+            android:src="@drawable/icono23px"/>
+
+        <TextView
+            android:textSize="16dp"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:id="@+id/requisito_3"
+            android:textColor="@color/pureBlack"
+            android:text="Realizar el pago correspondiente, con cargo a tu tarjeta de débito o crédito"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ver los terminos y condiciones"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/colorLink"
+        android:id="@+id/textView12" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_gravity="center"
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acepto los terminos y condiciones"
+            android:id="@+id/textView13" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_continuar_req"
+        android:layout_gravity="center"
+        android:text="Continuar"
+        android:background="@drawable/mybutton"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+</ScrollView>

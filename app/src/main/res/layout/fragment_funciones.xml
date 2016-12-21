@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollViewFunc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    >
+
+    <TextView
+        android:id="@+id/titulo_func"
+        android:textColor="@color/pureBlack"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textSize="30dp"
+        android:text="Tranquilo(a),
+Torito Rescue te ayudará:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorOneFunc"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView"
+            android:layout_weight="1"
+            android:src="@drawable/icono23px"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:id="@+id/funcion_1"
+            android:textColor="@color/pureBlack"
+            android:text="Preparando un documento de demanda de amparo."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="@color/colorTwoFunc"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2"
+            android:layout_weight="1"
+            android:src="@drawable/icono23px"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:id="@+id/funcion_2"
+            android:textColor="@color/pureBlack"
+            android:text="Presentando el documento ante las autoridades federales."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@color/colorThreeFunc"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView3"
+            android:layout_weight="1"
+            android:src="@drawable/icono23px"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:id="@+id/funcion_3"
+            android:textColor="@color/pureBlack"
+            android:text="Gestionando para que las autoridades responsables conozcan la suspensión provisonal, una vez autorizada por la autoridad federal correspondientes."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_continuar_func"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Continuar"
+        android:background="@drawable/mybutton"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+</ScrollView>

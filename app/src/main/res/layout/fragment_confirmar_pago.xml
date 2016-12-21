@@ -1,0 +1,84 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.torito.ConfirmarPago"
+    android:background="#fff792">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_width="300dp"
+            android:textSize="35dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Para que podamos ayudarte por favor confirma tu pago"
+            />
+
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:textSize="39dp"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/RRR"
+
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="$2900"
+                android:textColor="#75a501"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="MXN"
+                android:textColor="@android:color/darker_gray"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_confirmarpagos"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Continuar"
+            android:background="@drawable/mybutton"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </LinearLayout>
+</ScrollView>
+
+
+
