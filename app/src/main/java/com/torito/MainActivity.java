@@ -54,9 +54,9 @@ public class MainActivity extends AppCompatActivity implements IntroFunciones.on
         setSupportActionBar(toolbar);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("Perfil").setIcon(R.drawable.icono23px));
-        tabLayout.addTab(tabLayout.newTab().setText("¡Rescátenme!"));
-        tabLayout.addTab(tabLayout.newTab().setText("Información legal").setTag("LegalTag"));
+        tabLayout.addTab(tabLayout.newTab().setText("Atras"));
+        tabLayout.addTab(tabLayout.newTab().setText("Torito Rescues"));
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);

@@ -11,53 +11,40 @@
         android:id="@+id/Perfil"
         android:layout_width="match_parent"
         android:layout_height="match_parent" tools:context="com.torito.Perfil"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="@color/colorFont">
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Proporciona los siguientes datos"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Proporciona los siguientes datos
+            de la persona a rescatar"
             android:id="@+id/texto1"
             android:layout_weight="0.33"
             android:textAlignment="center"
-            android:gravity="center"
-            android:fontFamily="sans-serif-medium"
-            android:textSize="28dp"
-            android:layout_marginTop="45dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/imageView4"
+            />
 
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:id="@+id/Nombre"
             android:layout_marginTop="44dp"
-            android:background="#bebebe"
-            android:drawableStart="@drawable/icono23px"
+            android:gravity="center"
             android:layout_below="@+id/texto1"
             android:layout_centerHorizontal="true"
             android:hint="Nombre(s)"/>
 
-
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/Materno"
-            android:layout_marginTop="15dp"
-            android:background="#bebebe"
-            android:drawableStart="@drawable/icono23px"
-            android:layout_below="@+id/Paterno"
-            android:layout_alignLeft="@+id/Paterno"
-            android:layout_alignStart="@+id/Paterno"
-            android:hint="Apellido Materno"/>
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:id="@+id/Paterno"
-            android:background="#bebebe"
-            android:drawableStart="@drawable/icono23px"
+            android:gravity="center"
             android:layout_below="@+id/Nombre"
             android:layout_alignLeft="@+id/Nombre"
             android:layout_alignStart="@+id/Nombre"
@@ -66,9 +53,19 @@
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:id="@+id/Materno"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/Paterno"
+            android:layout_alignLeft="@+id/Paterno"
+            android:layout_alignStart="@+id/Paterno"
+            android:hint="Apellido Materno"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
             android:id="@+id/Telefono"
-            android:background="#bebebe"
-            android:drawableStart="@drawable/icono23px"
+            android:gravity="center"
             android:layout_below="@+id/Materno"
             android:layout_alignLeft="@+id/Materno"
             android:layout_alignStart="@+id/Materno"
@@ -78,8 +75,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:id="@+id/Email"
-            android:background="#bebebe"
-            android:drawableStart="@drawable/icono23px"
+            android:gravity="center"
             android:layout_below="@+id/Telefono"
             android:layout_alignLeft="@+id/Telefono"
             android:layout_alignStart="@+id/Telefono"
@@ -91,9 +87,39 @@
             android:layout_height="wrap_content"
             android:text="Confirmar"
             android:id="@+id/button"
+            android:textColor="@color/colorTextButton"
+            android:background="@drawable/mybutton"
             android:layout_below="@+id/Email"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/icn_nu1"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/button"
+            android:layout_toStartOf="@+id/button" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/icn_n2"
+            android:layout_above="@+id/texto1"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:src="@drawable/icn_n3"
+            android:layout_above="@+id/texto1"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button" />
 
     </RelativeLayout>
 </ScrollView>

@@ -5,7 +5,7 @@
     <color name="colorAccent">#FA5858</color>
 
     <color name="colorLink">#B40404</color>
-    <color name="pureBlack">#000</color>
+
 
     <color name="colorOneFunc">#F7E676</color>
     <color name="colorTwoFunc">#F0DA46</color>
@@ -15,7 +15,12 @@
     <color name="colorTwoReq">#A6D537</color>
     <color name="colorThreeReq">#8ECB04</color>
 
-
-
+    <color name="colorWelcome">#ffffff</color>
+    <color name="colorSubtitle">#828287</color>
+    <color name="colorFont">#0E8A85</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorText">#828287</color>
+    <color name="colorTextButton">#ffffff</color>
+    <color name="pureBlack">#000</color>
 
 </resources>
